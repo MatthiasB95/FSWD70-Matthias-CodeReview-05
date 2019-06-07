@@ -1,0 +1,77 @@
+//creating a json array which holds all necessary information for the html file 
+var movie = [{
+
+	"title": "Lord of the Rings",
+
+	"pic": "img/lotr.png",
+
+	"description": "A short description",
+
+	"button": "img/like.png",
+
+	"likes": "0",
+
+
+},	{
+	"title": "The Hobbit",
+
+	"pic": "img/hobbit.png",
+
+	"description": "A short description",
+
+	"button": "img/like.png",
+
+	"likes": "0",
+
+	
+
+
+},	{
+	"title": "Frankenstein",
+
+	"pic": "img/frankenstein.png",
+
+	"description": "A short description",
+
+	"button": "img/like.png",
+
+	"likes": "0",
+
+
+},	{
+	"title": "Star Wars Episode 6",
+
+	"pic": "img/star_wars6.png",
+
+	"description": "A short description",
+
+	"button": "img/like.png",
+
+	"likes": "0",
+
+
+},	{
+	"title": "Troja",
+
+	"pic": "img/troja.png",
+
+	"description": "A short description",
+
+	"button": "img/like.png",
+
+	"likes": "0",
+
+
+},	{
+	"title": "Bud Spencer & Terence Hill",
+
+	"pic": "img/spencer_hill.png",
+
+	"description": "A short description",
+
+	"button": "img/like.png",
+
+	"likes": "0",
+
+
+}]
