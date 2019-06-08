@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
 	
+	
 </head>
 <body>
 	<!--Creating rows and columns with bootstrap and adding background-->
@@ -24,88 +25,99 @@
 
 		<div class="row">
 			
-			<p class="col-lg-6 m-1 text-right h5">Movies</p>
-			<button class="btn-lg col-lg-1 col-sm-1 ml-auto text-white" style="background-color: #171E24">Sort</button>
+			<p class="col-lg-6 m-1 text-lg-right text-md-center h5">Movies</p>
+			<!--creating the dropdown button to show the movies based on their rating-->
+				<p class="col-6col-md-4 ml-md-auto" style="width: 10em">
+				<button class="btn-secondary dropdown-toggle text-white" type="button" data-toggle="dropdown" style="background-color: #171E24">Sort</button>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+			      <li></li>
+			    </ul>
+				</p class="col" style="width: 5em">
 		</div>
-		<!--Defining the different columns and adding content-->
+		<!--Defining the different columns and adding content, defining the right margins, padding, and column size, defining the right margins, padding, and column size, displayed with 3 rows and 2 columns in lg, and underneath in one column in md and sm -->
 		<div class="row p-3 m-2">
-			<div class="test col-lg-5 p-2 d-lg-flex flex-row" value="0" style="background-color: #111111">
-				<img src="" class="img col-lg-4 m-1 pr-0" height="250" alt="">
+			<div class="test col-lg-5 col-md-10 p-lg-2 d-lg-flex d-md-flex flex-row" style="background-color: #111111">
+				<img src="" class="img col-lg-5 col-md-4 col-5 m-1 pr-0" height="250" alt="">
 
 				<div class="col-lg-4 flex-column">		
-					<p class="title"></p>
-					<p class="description"></p>
-					<span class="text-success">Like<input class="btn col-lg-4 daumen" src="" type="image"></span>
+					<p class="title" style="width: 10em"></p>
+					<p class="description" style="width: 10em"></p>
+					<span class="text-success" >Like<input class="btn col-lg-6 col-md-2 col-2 daumen" src="" type="image"></span>
 					<span class="likes rounded-circle col-lg-1 bg-success">0</span>
 				</div>
 			</div>		
 			
-			<div class="test col-lg-5 ml-auto pl-2 d-lg-flex flex-row" value="1" style="background-color: #111111">
-				<img src="" class="img col-lg-4 m-1 pr-0" height="250" alt="">
+			<div class="test col-lg-5 col-md-10 ml-lg-auto pl-lg-2 d-lg-flex ml-md-0 d-md-flex flex-row" style="background-color: #111111">
+				<img src="" class="img col-lg-5 col-md-4 col-5 m-1 pr-0" height="250" alt="">
 
 				<div class="col-lg-4 flex-column">		
-					<p class="title"></p>
-					<p class="description"></p>
-					<span class="text-success">Like<input class="btn col-lg-4 daumen" src="" type="image"></span>
+					<p class="title" style="width: 10em"></p>
+					<p class="description" style="width: 10em"></p>
+					<span class="text-success" >Like<input class="btn col-lg-6 col-md-2 col-2 daumen" src="" type="image"></span>
 					<span class="likes rounded-circle col-lg-1 bg-success">0</span>
 				</div>
 
 			</div>
 
 		</div>
-		<!--Defining the different columns and adding content-->
+
+		<!--Defining the different columns and adding content, defining the right margins, padding, and column size, defining the right margins, padding, and column size-->
 		<div class="row p-3 m-2">
-			<div class="test col-lg-5 p-2 d-lg-flex flex-row" value="2" style="background-color: #111111">
-				<img src="" class="img col-lg-4 m-1 pr-0" height="250" alt="">
+			<div class="test col-lg-5 col-md-10 p-lg-2 d-lg-flex d-md-flex flex-row" style="background-color: #111111">
+				<img src="" class="img col-lg-5 col-md-4 col-5 m-1 pr-0" height="250" alt="">
 
 				<div class="col-lg-4 flex-column">		
-					<p class="title"></p>
-					<p class="description"></p>
-					<span class="text-success">Like<input class="btn col-lg-4 daumen" src="" type="image"></span>
+					<p class="title" style="width: 10em"></p>
+					<p class="description" style="width: 10em"></p>
+					<span class="text-success" >Like<input class="btn col-lg-6 col-md-2 col-2 daumen" src="" type="image"></span>
 					<span class="likes rounded-circle col-lg-1 bg-success">0</span>
 				</div>
-
 			</div>		
 			
-			<div class="test col-lg-5 ml-auto pl-2 d-lg-flex flex-row" value="3" style="background-color: #111111">
-				<img src="" class="img col-lg-4 m-1 pr-0" height="250" alt="">
+			<div class="test col-lg-5 col-md-10 ml-lg-auto pl-lg-2 d-lg-flex ml-md-0 d-md-flex flex-row" style="background-color: #111111">
+				<img src="" class="img col-lg-5 col-md-4 col-5 m-1 pr-0" height="250" alt="">
 
 				<div class="col-lg-4 flex-column">		
-					<p class="title"></p>
-					<p class="description"></p>
-					<span class="text-success">Like<input class="btn col-lg-4 daumen" src="" type="image"></span>
+					<p class="title" style="width: 10em"></p>
+					<p class="description" style="width: 10em"></p>
+					<span class="text-success" >Like<input class="btn col-lg-6 col-md-2 col-2 daumen" src="" type="image"></span>
 					<span class="likes rounded-circle col-lg-1 bg-success">0</span>
 				</div>
 
 			</div>
 
 		</div>
-		<!--Defining the different columns and adding content-->
+
+		<!--Defining the different columns and adding content, defining the right margins, padding, and column size, defining the right margins, padding, and column size-->
 		<div class="row p-3 m-2">
-			<div class="test col-lg-5 p-2 d-lg-flex flex-row" value="4" style="background-color: #111111">
-				<img src="" class="img col-lg-4 m-1 pr-0" height="250" alt="">
+			<div class="test col-lg-5 col-md-10 p-lg-2 d-lg-flex d-md-flex flex-row" style="background-color: #111111">
+				<img src="" class="img col-lg-5 col-md-4 col-5 m-1 pr-0" height="250" alt="">
 
 				<div class="col-lg-4 flex-column">		
-					<p class="title"></p>
-					<p class="description"></p>
-					<span class="text-success">Like<input class="btn col-lg-4 daumen" src="" type="image"></span>
+					<p class="title" style="width: 10em"></p>
+					<p class="description" style="width: 10em"></p>
+					<span class="text-success" >Like<input class="btn col-lg-6 col-md-2 col-2 daumen" src="" type="image"></span>
 					<span class="likes rounded-circle col-lg-1 bg-success">0</span>
 				</div>
-
 			</div>		
 			
-			<div class="test col-lg-5 ml-auto pl-2 d-lg-flex flex-row" value="5" style="background-color: #111111">
-				<img src="" class="img col-lg-4 m-1 pr-0" height="250" alt="">
+			<div class="test col-lg-5 col-md-10 ml-lg-auto pl-lg-2 d-lg-flex ml-md-0 d-md-flex flex-row" style="background-color: #111111">
+				<img src="" class="img col-lg-5 col-md-4 col-5 m-1 pr-0" height="250" alt="">
 
 				<div class="col-lg-4 flex-column">		
-					<p class="title"></p>
-					<p class="description"></p>
-					<span class="text-success">Like<input class="btn col-lg-4 daumen" src="" type="image"></span>
+					<p class="title" style="width: 10em"></p>
+					<p class="description" style="width: 10em"></p>
+					<span class="text-success" >Like<input class="btn col-lg-6 col-md-2 col-2 daumen" src="" type="image"></span>
 					<span class="likes rounded-circle col-lg-1 bg-success">0</span>
 				</div>
 
 			</div>
 
+		</div>
+		
+
+		<div class="row" style="background-color: black">
+			<p class=" col-lg-12 text-center h2">Movie Factory</p>
 		</div>
 		
 	</div>

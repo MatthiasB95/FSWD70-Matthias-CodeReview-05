@@ -6,8 +6,9 @@ $(document).ready(function(){
 	var increase = $(".btn");
 	var amount = $(".likes");
 	var img_like = $(".daumen")
-	var sort = $(".btn-lg")
+	var sort = $(".btn-secondary")
 	var test =$(".test")
+	var menu =$(".dropdown-menu")
 //counter to keep track of the likes	
 let counter = [0,0,0,0,0,0];
 //put the elements from the json file in the html document
@@ -18,23 +19,32 @@ let counter = [0,0,0,0,0,0];
 		$(img_like[i]).attr("src", movie[i].button);
 		
 
-//function that every time u click the button the likes increase by one 
+//function that every time you click the button the likes increase by one 
 	$(increase[i]).click(function(){
 		$(amount[i]).text(++counter[i]);
+
+		$(sort).click(function(){
+			
+
+		});		
 	});
-//function to sort the movies by click when the likes are higher
-	$(sort).click(function(){
-		if (test[i].value < test[i+1].value) {
-			test[i+1]=test[i];
-		}
-	});
+
+
+		
+
+
+
 
 	}
-
-
-
-
-	
-
+	//creating an empty array and filling it with the movies based on the amount of like
+	var list = []
+	for (var i = 0; i < arr.length; i++) {
+		
+		$(sort).click(function()({
+			
+		})
+		console.log(list);
+		
+	}
 
 });
