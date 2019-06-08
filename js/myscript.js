@@ -29,7 +29,13 @@ let counter = [0,0,0,0,0,0];
 		});		
 	});
 
+	/*var list = []
+	list.fill(counter[i]);
 
+	$(sort).click(function(){
+		console.log(list);
+	})*/
+	
 		
 
 
@@ -37,14 +43,14 @@ let counter = [0,0,0,0,0,0];
 
 	}
 	//creating an empty array and filling it with the movies based on the amount of like
-	var list = []
-	for (var i = 0; i < arr.length; i++) {
+
+	/*for (var i = 0; i < arr.length; i++) {
 		
 		$(sort).click(function()({
 			
 		})
 		console.log(list);
 		
-	}
+	}*/
 
 });
